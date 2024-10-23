@@ -1,10 +1,10 @@
 trigger:
-- master
+- main
 
 variables:
-  backendServiceArm: 'AZURE_5_SUBSCRIPTION'
-  backendAzureRmResourceGroupName: 'resourcegroup-devops-tfstate'
-  backendAzureRmStorageAccountName: 'terraform0tfstate0'
+  backendServiceArm: 'azure-cli-2024-10-21-22-15-32'
+  backendAzureRmResourceGroupName: 'resourcegroup-devopsy'
+  backendAzureRmStorageAccountName: 'teraformstorage032'
   backendAzureRmContainerName: 'tfstate'
   location: 'westeurope'
   tfBackendEnvironment: tf_backend
